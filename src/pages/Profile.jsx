@@ -9,7 +9,7 @@ function Profile() {
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
-      .then((data) => setUser(data[0])); // only first user
+      .then((data) => setUser(data[0])); 
   }, []);
 
   if (!user) return null;
