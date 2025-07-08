@@ -1,0 +1,155 @@
+.profile-container {
+  font-family: "Segoe UI", sans-serif;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  background-color: #091324;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-area {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  background: white;
+  color: #2e324f;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.profile-content {
+  padding: 30px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #2e324f;
+  font-size: 18px;
+  font-weight: 800px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+
+
+.profile-avatar-circle {
+  background: #f3f4f6;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 24px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #111827;
+}
+
+.profile-email {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Keep all previous styles unchanged except the ones below */
+
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* Stack top and bottom */
+  gap: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.profile-placement{
+  display: flex;
+  flex-direction: row;
+}
+
+.center-align-styling{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.profile-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.profile-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+
+
+.profile-group label {
+  display: block;
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.profile-field {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #111827;
+  width: 500px;
+}
+
+.logo{
+    height: 40px;
+    width: 80px;
+    padding-left: 50px;
+}
